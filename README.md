@@ -1,1 +1,1 @@
-All of the project were using [Poetry](https://python-poetry.org/) for dependency management.
+All of the project were using [Poetry](https://python-poetry.org/) for dependency management and some of it using [Cargo](https://doc.rust-lang.org/cargo/) for Rust project.
