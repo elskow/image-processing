@@ -27,6 +27,25 @@
 \usepackage{listings}
 \usepackage{float}
 \usepackage{indentfirst}
+\usepackage{xcolor}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    frame=single,
+    breaklines=true,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+    numberstyle=\tiny\color{gray},
+    keywordstyle=\color{blue},
+    commentstyle=\color{dkgreen},
+    stringstyle=\color{mauve},
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    captionpos=b,
+    breakatwhitespace=true,
+    escapeinside={\%*}{*)},
+}
 
 \titlespacing*{\chapter}{0pt}{-50pt}{40pt}
 
